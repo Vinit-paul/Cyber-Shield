@@ -70,25 +70,6 @@ It helps users perform basic vulnerability assessments on websites by scanning s
 
 ---
 
-# Screenshots
-
-## Login Page
-
-(Add Screenshot Here)
-
-## Dashboard
-
-(Add Screenshot Here)
-
-## Scan Result
-
-(Add Screenshot Here)
-
-## Analytics Dashboard
-
-(Add Screenshot Here)
-
----
 
 # Installation
 
