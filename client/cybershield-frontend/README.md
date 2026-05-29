@@ -1,16 +1,188 @@
-# React + Vite
+#  CyberShield
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Full Stack Vulnerability Assessment Platform
 
-Currently, two official plugins are available:
+CyberShield is a full-stack cybersecurity dashboard built using React, Node.js, Express, and MongoDB.
+It helps users perform basic vulnerability assessments on websites by scanning security headers, open ports, and detecting common security weaknesses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Authentication
 
-## Expanding the ESLint configuration
+* User Registration
+* User Login
+* JWT Authentication
+* Protected Routes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Security Scanning
+
+* Security Header Analysis
+* HTTPS Status Checker
+* Nmap Port Scanning
+* SQL Injection Pattern Detection
+* Vulnerability Detection Engine
+* Risk Level Analysis
+
+---
+
+##  Dashboard Features
+
+* Modern Cybersecurity UI
+* Live Scan Results
+* Analytics Cards
+* Scan History
+* Delete Scan Feature
+* Loading Spinner
+* PDF Report Download
+
+---
+
+#  Tech Stack
+
+## Frontend
+
+* React.js
+* Vite
+* Axios
+
+## Backend
+
+* Node.js
+* Express.js
+
+## Database
+
+* MongoDB
+* Mongoose
+
+## Security & Tools
+
+* JWT Authentication
+* bcryptjs
+* Helmet
+* Express Rate Limiting
+* Nmap
+* PDFKit
+
+---
+
+# Screenshots
+
+## Login Page
+
+(Add Screenshot Here)
+
+## Dashboard
+
+(Add Screenshot Here)
+
+## Scan Result
+
+(Add Screenshot Here)
+
+## Analytics Dashboard
+
+(Add Screenshot Here)
+
+---
+
+# Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Vinit-paul/Cyber-Shield.git
+```
+
+---
+
+## Backend Setup
+
+```bash
+cd server
+npm install
+npm run dev
+```
+
+---
+
+## Frontend Setup
+
+```bash
+cd client/cybershield-frontend
+npm install
+npm run dev
+```
+
+---
+
+#  Environment Variables
+
+Create a `.env` file inside the server folder.
+
+```env
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+---
+
+#  API Endpoints
+
+## Authentication
+
+| Method | Endpoint           |
+| ------ | ------------------ |
+| POST   | /api/auth/register |
+| POST   | /api/auth/login    |
+
+---
+
+## Scanning
+
+| Method | Endpoint          |
+| ------ | ----------------- |
+| POST   | /api/scan/headers |
+| GET    | /api/scan         |
+| DELETE | /api/scan/        |
+
+---
+
+## Reports
+
+| Method | Endpoint     |
+| ------ | ------------ |
+| GET    | /api/report/ |
+
+---
+
+#  Future Enhancements
+
+* XSS Detection
+* Advanced Vulnerability Scanner
+* Real-Time Notifications
+* Graphical Charts
+* Deployment Support
+* AI-Based Threat Detection
+
+---
+
+#  Author
+
+## Vinit Paul
+
+MCA Student | Full Stack Developer | Cybersecurity Enthusiast
+
+---
+
+#  Project Status
+
+✅ Completed
+✅ GitHub Uploaded
+✅ Portfolio Ready
+✅ Final Year Project Ready
